@@ -1,0 +1,425 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.backgraund1 img {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.container .logo1 a img{
+    position: absolute;
+    top: 0.6%;
+    z-index: 80;
+    width: 15%;
+    left: 1.5%;
+}
+.reff {
+    margin: 3vw 1%;
+}
+
+.reffe ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 2% 3%;
+}
+
+.reffe ul li {
+    list-style: none;
+    margin: 2vw 1vw;
+}
+
+.reffe a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.7vw;
+}
+
+.reffe p {
+    color: black;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.reffe img {
+    position: relative;
+    left: 45%;
+    width: 10%;
+}
+.navegacion {
+    position: absolute;
+    top: 2%;
+}
+.nav {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0vw 20vw;
+    position: absolute;
+    z-index: 100;
+    left: 13vw;
+}
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.3vw;
+    text-align: center;
+    margin: 0 4.5vw;
+    font-weight: 900;
+    position: relative;
+    
+}
+.presentacion img {
+    position: absolute;
+    z-index: 5;
+    top: 6vw;
+    left: 5vw;
+    width: 90%;
+}
+.presentacion .boton a {
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    top: 55vw;
+    left: 23vw;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vw;
+    background-image: linear-gradient(to right, rgb(198, 222, 255), rgb(96, 96, 255));
+    padding: 0.5vw 1vw;
+    width: 16vw;
+    height: 4vw;
+    border-radius: 10vw;
+}
+.grafic iframe {
+    position: absolute;
+    top: 75vw;
+    z-index: 10;
+}
+.grafic h2 {
+    position: absolute;
+    top: 71vw;
+    z-index: 10;
+    left: 27vw;
+}
+.grafic img {
+    position: absolute;
+    z-index: 5;
+    top: 71vw;
+    width: 97%;
+    height: 83vw;
+    left: 1.5vw;
+}
+.titulo h2 {
+    position: absolute;
+    top: 9.5vw;
+    left: 40vw;
+    font-size: 4vw;
+    z-index: 30;
+}
+.opacity .op1 {
+    position: absolute;
+    top: 15vw;
+    z-index: 10;
+    width: 90%;
+    height: 38vw;
+    left: 5vw;
+    border: 0.1vw solid black;
+    border-radius: 3vw;
+}
+.opacity .op2 {
+    position: absolute;
+    top: 60vw;
+    z-index: 10;
+    width: 90%;
+    height: 38vw;
+    left: 5vw;
+    border: 0.1vw solid black;
+    border-radius: 3vw;
+}
+.opacity .op3 {
+    position: absolute;
+    top: 105vw;
+    z-index: 10;
+    width: 90%;
+    height: 38vw;
+    left: 5vw;
+    border: 0.1vw solid black;
+    border-radius: 3vw;
+}
+.img1 img {
+    position: absolute;
+    top: 16.8vw;
+    left: 7vw;
+    border-radius: 3vw;
+    z-index: 20;
+    width: 40vw;
+}
+.img2 img {
+    position: absolute;
+    top: 61.8vw;
+    left: 51vw;
+    border-radius: 3vw;
+    z-index: 20;
+    width: 40vw;
+}
+.img3 img {
+    position: absolute;
+    top: 106.8vw;
+    left: 7vw;
+    border-radius: 3vw;
+    z-index: 20;
+    width: 40vw;
+}
+.tl1 h3 {
+    position: absolute;
+    z-index: 30;
+    top: 17vw;
+    left: 50vw;
+    font-size: 4vw;
+    color: black;
+    background-image: linear-gradient(to right, rgb(198, 222, 255), rgb(96, 96, 255));
+    padding: 0.5vw 1vw;
+    border-radius: 10vw;
+}
+.tl2 h3 {
+    position: absolute;
+    z-index: 30;
+    top: 62vw;
+    left: 34vw;
+    font-size: 4vw;
+    color: black;
+    background-image: linear-gradient(to right, rgb(198, 222, 255), rgb(96, 96, 255));
+    padding: 0.5vw 1vw;
+    border-radius: 10vw;
+}
+.tl3 h3 {
+    position: absolute;
+    z-index: 30;
+    top: 107vw;
+    left: 50vw;
+    font-size: 4vw;
+    color: black;
+    background-image: linear-gradient(to right, rgb(198, 222, 255), rgb(96, 96, 255));
+    padding: 0.5vw 1vw;
+    border-radius: 10vw;
+}
+.dc1 {
+    position: absolute;
+    top: 24vw;
+    left: 50vw;
+    z-index: 30;
+    height: 5vw;
+    font-size: 2vw;
+}
+.dc2 {
+    position: absolute;
+    top: 70vw;
+    left: 8vw;
+    z-index: 30;
+    height: 5vw;
+    font-size: 2vw;
+}
+.dc3 {
+    position: absolute;
+    top: 114.5vw;
+    left: 50vw;
+    z-index: 30;
+    height: 5vw;
+    font-size: 2vw;
+}
+.im1 img {
+    position: absolute;
+    top: 10vw;
+    z-index: 2;
+    width: 25vw;
+    height: 20vw;
+    left: 5vw;
+    border: 0.1vw solid black;
+    border-radius: 3vw;
+}
+.im2 img {
+    position: absolute;
+    top: 10vw;
+    z-index: 2;
+    width: 25vw;
+    height: 20vw;
+    left: 35vw;
+    border: 0.1vw solid black;
+    border-radius: 3vw;
+}
+.im3 img {
+    position: absolute;
+    top: 10vw;
+    z-index: 2;
+    width: 25vw;
+    height: 20vw;
+    left: 65vw;
+    border: 0.1vw solid black;
+    border-radius: 3vw;
+}
+.series1 {
+    position: absolute;
+    top: 0vw;
+    left: 1vw;
+}
+.series2 {
+    position: absolute;
+    top: 25vw;
+    left: 1vw;
+}
+.series3 {
+    position: absolute;
+    top: 50vw;
+    left: 1vw;
+}
+.series4 {
+    position: absolute;
+    top: 75vw;
+    left: 1vw;
+}
+.series5 {
+    position: absolute;
+    top: 100vw;
+    left: 1vw;
+}
+.series6 {
+    position: absolute;
+    top: 125vw;
+    left: 1vw;
+}
+.seims {
+    position: absolute;
+    top: 12vw;
+    z-index: 2;
+}
+.seims h2 {
+    font-size: 3.1vw;
+}
+.seims img {
+    position: absolute;
+    width: 20vw;
+    height: 14vw;
+}
+.a1 {
+    position: absolute;
+    left: 8.2vw;
+}
+.seims h2 {
+    position: absolute;
+    top: 14vw;
+    left: 2vw;
+    color: black;
+}
+.a2 {
+    position: absolute;
+    left: 38.5vw;
+}
+.a2 h2 {
+    left: 1vw;
+}
+.a3 {
+    position: absolute;
+    left: 68.5vw;
+}
+.a3 h2 {
+    left: 0.2vw;
+}
+.fila1 .a1 h2 {
+    left: -1vw;
+}
+.fila1 .a3 h2 {
+    left: 1vw;
+}
+.fila2 {
+    position: absolute;
+    top: 25vw;
+}
+.fila2 .a1 h2 {
+    left: 0.6vw;
+}
+.fila2 .a3 h2 {
+    left: 0vw;
+}
+.fila2 .a2 h2 {
+    left: -1vw;
+}
+.fila3 {
+    position: absolute;
+    top: 50vw;
+}
+.fila3 .a1 h2 {
+    left: 4vw;
+}
+.fila3 .a3 h2 {
+    position: absolute;
+    left: 5vw;
+}
+.fila4 {
+    position: absolute;
+    top: 75vw;
+}
+.fila5 {
+    position: absolute;
+    top: 100vw;
+}
+.fila6 {
+    position: absolute;
+    top: 125vw;
+}
+.fila3 .a2 h2 {
+    position: absolute;
+    left: 5vw;
+}
+.fila3 .a3 h2 {
+    position: absolute;
+    left: 1vw;
+}
+.fila4 .a1 h2 {
+    position: absolute;
+    left: 1vw;
+}
+.fila4 .a2 h2 {
+    position: absolute;
+    left: -1vw;
+}
+.fila5 .a1 h2 {
+    position: absolute;
+    left: -1vw;
+}
+.fila5 .a3 h2 {
+    position: absolute;
+    left: 4vw;
+}
+.fila6 .a1 h2 {
+    position: absolute;
+    left: -1vw;
+}
+.fila6 .a3 h2 {
+    position: absolute;
+    left: -1vw;
+}
+.paginas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 40vw;
+    position: relative;
+    left: 1.5vw;
+}
+.paginas a {
+    width: 3.7vw;
+    border: solid 0.1vw blue;
+    color: black;
+    border-radius: 3vw;
+    font-size: 3vw;
+    padding: 0.5vw 1vw;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(198, 222, 255), rgb(96, 96, 255));
+}

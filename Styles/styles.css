@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.backgraund1 img {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.container .logo1 a img{
+    position: absolute;
+    top: 0.6%;
+    z-index: 80;
+    width: 15%;
+    left: 1.5%;
+}
+.reff {
+    margin: 3vw 1%;
+}
+
+.reffe ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 2% 3%;
+}
+
+.reffe ul li {
+    list-style: none;
+    margin: 2vw 1vw;
+}
+
+.reffe a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.7vw;
+}
+
+.reffe p {
+    color: black;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.reffe img {
+    position: relative;
+    left: 45%;
+    width: 10%;
+}
+.navegacion {
+    position: absolute;
+    top: 2%;
+}
+.nav {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0vw 20vw;
+    position: absolute;
+    z-index: 100;
+    left: 13vw;
+}
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.3vw;
+    text-align: center;
+    margin: 0 4.5vw;
+    font-weight: 900;
+    position: relative;
+    
+}
+.nav-menu {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0vw 20vw;
+    position: absolute;
+    top: 2vw;
+    z-index: 100;
+    left: 13vw;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.3vw;
+    text-align: center;
+    margin: 0 4.5vw;
+    font-weight: 900;
+}
+.opacitys img {
+    position: absolute;
+    top: 7vw;
+    z-index: 10;
+    margin: 0vw 1.5vw;
+    width: 97%;
+    height: 480vw;
+    border: solid 0.1vw black;
+    border-radius: 8vw;
+}
+
+.opacitys-2 img {
+    position: absolute;
+    top: 7vw;
+    z-index: 10;
+    margin: 0vw 1.5vw;
+    width: 97%;
+    height: 150vw;
+    border: solid 0.1vw black;
+    border-radius: 8vw;
+}
+.separacion img {
+    position: absolute;
+    top: 24vw;
+    z-index: 11;
+    margin: 0vw 1.5vw;
+    width: 97%;
+    height: 6vw;
+    border: solid 0.1vw black;
+}
+.paginas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 40vw;
+    position: relative;
+    left: 1.5vw;
+}
+.paginas a {
+    width: 3.7vw;
+    border: solid 0.1vw blue;
+    color: black;
+    border-radius: 3vw;
+    font-size: 3vw;
+    padding: 0.5vw 1vw;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(198, 222, 255), rgb(96, 96, 255));
+}
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+.Parrafo-1 .titulo1 h2 {
+    position: absolute;
+    top: 15vw;
+    font-size: 3.5vw;
+    z-index: 11;
+    left: 32vw;
+}
+.Parrafo-1 .titulo2 h2 {
+    position: absolute;
+    top: 28vw;
+    font-size: 2.8vw;
+    z-index: 11;
+    left: 4vw;
+}
+.titulo2 h3 {
+    position: absolute;
+    top: 33vw;
+    left: 15vw;
+    font-weight: 100;
+    z-index: 13;
+    font-size: 2.2vw;
+}
+.titulo2 .N1 {
+    font-weight: bolder;
+    position: absolute;
+    left: 4vw;
+}
+.titulo2 .N2 {
+    font-weight: bolder;
+    position: absolute;
+    left: 4vw;
+}
+.linea2 {
+    position: absolute;
+    top: 4vw;
+    z-index: 13;
+    width: 50vw;
+}
+.linea3 {
+    position: absolute;
+    top: 8vw;
+    z-index: 13;
+    width: 50vw;
+}
+.Parrafo-2 .titulo1 h2 {
+    position: absolute;
+    top: 49vw;
+    font-size: 2.8vw;
+    z-index: 11;
+    left: 4vw;
+}
+.Parrafo-2 .Text-1 {
+    position: absolute;
+    top: 53vw;
+    font-size: 2vw;
+    z-index: 11;
+    left: 4vw;
+}
+.Parrafo-2 .Text-1 h3 {
+    font-weight: 200;
+    width: 90vw;
+}
+.Parrafo-3 {
+    position: absolute;
+    left: 4vw;
+    top: 12vw;
+    z-index: 12;
+    width: 90vw;
+}
+.Parrafo-3 h3 {
+    font-size: 2.3vw;
+}
+.invisible {
+    visibility: hidden;
+}
+.negrita {
+    font-style: italic;
+}
+.Lista-1 h2 {
+    font-size: 3vw;
+}
+.Lista-1 h3 {
+    font-size: 2.3vw;
+    position: relative;
+    left: 3vw;
+    display: list-item;
+    list-style: circle;
+}
+@media (max-width: 400px) {
+    .nav-brand {
+        width: 150px;
+        height: 50px;
+    }
+    .nav-main ul.nav-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #4071b4;
+        height: 100%;
+        transform: translateX(-80vw);
+        transition: transform .5s ease-in-out;
+        padding: 30px;
+        opacity: .9;
+        z-index: 100;
+    }
+    .nav-main ul.nav-menu li a {
+        color: white;
+        font-size: 4vw;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-25vw);
+    }
+    .menu-btn {
+        display: block;
+        z-index: 100;
+    }
+    .menu-btn i {
+        position: absolute;
+        font-size: 7vw;
+        left: 0vw;
+        top: -3vw;
+    }
+}
